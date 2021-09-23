@@ -12,7 +12,7 @@
 
 ```
 dev http://localhost:3000/api/graphql
-prod https://keystone-next-temp.vercel.app/api/graphql
+prod https://keystone-next-temp.vercel.app/api/graphql // only if the playground config is enable in keystone.ts
 ```
 
 - Serve the Next.js frontend at http://localhost:3000
