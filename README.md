@@ -11,8 +11,8 @@
 - the graphql is at
 
 ```
-prod https://yourdomain/api/graphql
 dev http://localhost:3000/api/graphql
+prod https://keystone-next-temp.vercel.app/api/graphql
 ```
 
 - Serve the Next.js frontend at http://localhost:3000
