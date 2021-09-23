@@ -1,5 +1,7 @@
 # KEYSTONE NEXT JS
 
+- THE APP runs [here](https://keystone-next-temp.vercel.app/)
+
 - Running yarn dev will do the following:
 
 - Provision a GraphQL schema based on the configuration of keystone.ts
