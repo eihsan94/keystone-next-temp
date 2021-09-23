@@ -20,12 +20,12 @@ export default config({
   },
   lists: { Post },
   graphql: {
-    debug: true,
+    debug: process.env.NODE_ENV !== 'production', // change this to debug: true, if we want to see the graphql playground in prod
     queryLimits: { maxTotalResults: 100 },
     path: '/api/graphql',
     apolloConfig: {
-      playground: true,
-      introspection: true,
+      playground: process.env.NODE_ENV !== 'production', // change this to playground: true, if we want to see the graphql playground in prod
+      introspection: process.env.NODE_ENV !== 'production', // change this to introspection: true, if we want to see the graphql playground in prod
     },
   },
 });
